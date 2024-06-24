@@ -1,0 +1,123 @@
+nav {
+  width: 100%;
+  z-index: 3;
+  background-color: #e8e8e3;
+}
+
+.nav {
+  padding: 5rem 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  margin-left: 8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.links a {
+  color: var(blue);
+  border-radius: 0.3rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:hover {
+  padding: 0.7rem 1.5rem;
+}
+
+
+.veiculos{
+  width: 70%;
+  height: 50%;
+}
+section{
+  background-color: #e8e8e3;
+}
+footer {
+
+  background-color: #00005a;
+  height: 350px;
+
+}
+footer {
+
+  background-color: #00005a;
+  height: 263px;
+
+
+}
+
+.logo-footer {
+  width: 130px;
+  float: inherit;
+
+}
+
+.selecao {
+  padding: 15px;
+  text-align: start;
+}
+
+.click {
+  color: #fff;
+  font-size: 0.9rem;
+  list-style: none;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.f-h3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.a-footer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: lighter;
+  font-style: normal;
+  margin-top: 19px;
+
+}
+
+.a:hover {
+  padding: 0.1rem 1rem;
+  color: #272961;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.footer-info {
+  background-color: rgb(255, 250, 250);
+  height: 30px;
+  padding-bottom: 10px;
+  max-width: 100%;
+  max-height: 30px;
+
+}
+
+.icons{
+margin-left: 15px;
+margin-top: 4px;
+} 
