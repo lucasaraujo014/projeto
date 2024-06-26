@@ -1,5 +1,6 @@
 .logo{
-  width: 8%;
+  width: 10%;
+  margin-left: 15px;
 }
 nav {
   width: 100%;
@@ -12,7 +13,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1.5rem;
 }
 
 .links {
@@ -20,7 +20,7 @@ nav {
 }
 
 .links li {
-  margin-left: 8rem;
+  margin-left: 6rem;
   font-size: 0.8rem;
   font-weight: 700;
 }
@@ -117,7 +117,7 @@ footer {
 }
 
 .footer-info {
-  background-color: rgb(255, 250, 250);
+  background-color: #e8e8e3;
   height: 30px;
   padding-bottom: 10px;
   max-width: 100%;
@@ -129,6 +129,14 @@ footer {
   margin-left: 15px;
   margin-top: 4px;
 } 
-.footer-info{
-  background-color: #00005a;
+
+.see_more{
+  background-color: #0101a5;
+  color: white;
+  border: #01017e;
+}
+.see_more:hover{
+  background: white;
+  color: black;
+  box-shadow: inset 0 0 0 3px #00005a;
 }
